@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<title>Zadanie_13</title>
+<style>
+th,td{text-align: center;}
+td{width: 60px; height: 50px;}
+th{width: 40px; height: 40px;;}
+#a{background-color: #ccecfe;}
+#b{background-color: #436310;}
+#c{background-color: rgb(35, 11, 124)}
+#d{background-color: rgb(139, 204, 9)}
+table{border-collapse: collapse;}
+</style>
+</head> 
+<body> 
+<center>
+<h1>Tabela bez scalania</h1>
+<table border="1">
+<tr id="a">
+<th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th>
+</tr>
+<tr>
+<th id="a">2</th> <td>a</td> <td id="b">b</td> <td id="b">c</td> <td>d</td> <td>e</td>
+</tr>
+<tr>
+<th id="a">3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td id="c">j</td>
+</tr>
+<tr>
+<th id="a">4</th> <td>k</td> <td>l</td> <td>m</td> <td>n</td> <td id="c">o</td>
+</tr>
+<tr>
+<th id="a">5</th> <td id="d">p</td> <td id="d">q</td> <td id="d">r</td> <td>s</td> <td>t</td>
+</tr>
+<tr>
+<th id="a">6</th> <td id="d">u</td> <td id="d">v</td> <td id="d">w</td> <td>y</td> <td>z</td>
+</tr>
+</table>
+<br>
+<h1>Tabela z scalaniem</h1>
+<table border="1">
+<tr id="a">
+<th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th>
+</tr>
+<tr>
+<th id="a">2</th> <td>a</td> <td colspan="2" id="b">b, c</td> <td>d</td> <td>e</td>
+</tr>
+<tr>
+<th id="a">3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td rowspan="2" id="c">j, o</td>
+</tr>
+<tr>
+<th id="a">4</th> <td>k</td> <td>l</td> <td>m</td> <td>n</td>
+</tr>
+<tr>
+<th id="a">5</th> <td colspan="3" rowspan="2" id="d">p, q, r, u, v, w</td> <td>s</td> <td>t</td>
+</tr>
+<tr>
+<th id="a">6</th> <td>y</td> <td>z</td>
+</tr>
+</table>
+<br>
+<h1>Tabela z scalonymi inicjałami</h1>
+<table border="1">
+<tr id="a">
+<th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th>
+</tr>
+<tr>
+<th id="a">2</th> <td>a</td> <td>b</td> <td>c</td> <td>d</td> <td>e</td>
+</tr>
+<tr>
+<th id="a">3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td>j</td>
+</tr>
+<tr>
+<th id="a">4</th> <td>k</td> <td>l</td> <td rowspan="2" colspan="2" id="c">m, n, r, s</td><td>o</td>
+</tr>
+<tr>
+<th id="a">5</th> <td>p</td> <td>q</td> <td>t</td>
+</tr>
+<tr>
+<th id="a">6</th> <td>u</td> <td>v</td> <td>w</td> <td>y</td> <td>z</td>
+</tr>
+</table>
+</center>
+
+</body> 
+</html>
